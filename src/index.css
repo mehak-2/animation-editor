@@ -1,0 +1,356 @@
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* Elements Styling */
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 2px dashed black;
+  /* background-color: red; */
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px;
+}
+
+.top-bar {
+  box-shadow: rgba(26, 26, 202, 0.25) 0px 50px 100px -20px;
+  margin: 6px;
+}
+
+.category-button {
+  border: 1px solid rgba(0, 0, 255, 0.575);
+  text-align: center;
+  padding: 0.55rem 2rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 255, 0.575);
+  margin: 0.25rem;
+}
+
+.run-button{
+    background-color: rgba(0, 0, 255, 0.575);
+border: none;
+  padding: 0.55rem 2rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  color: white;
+  margin-left: -120px;
+
+}
+
+.category-button.selected {
+  background-color: rgba(0, 0, 255, 0.575);
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.element-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+.element-button {
+  background-color: #fbfbfb;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 0.45rem 2rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 255, 0.281);
+}
+
+.element-button.selected {
+  background-color: rgba(0, 0, 255, 0.808);
+  color: rgb(249, 248, 248);
+  border: none;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 2rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.params {
+  background-color: rgba(0, 0, 255, 0.575);
+}
+.left-section {
+  flex: 4;
+}
+
+.right-section {
+  flex: 7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.animation-section {
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  margin-top: 20px;
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.textareas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-left: 50px;
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.code-heading {
+  position: relative;
+}
+
+.textareas h1 {
+  position: absolute;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.textareas .pi-times {
+  margin-top: -10px;
+  right: 0;
+  color: rgb(246, 8, 8);
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+}
+
+/* left-part styling */
+.heading {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #1560f5;
+}
+
+.iteration-count p input {
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.duration p input {
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.delay p input {
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+}
+
+.timing p {
+  margin-right: 10px;
+}
+
+.timing select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.direction {
+  display: flex;
+  align-items: center;
+}
+
+.direction p {
+  margin-right: 10px;
+}
+
+.direction select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.fill-mode {
+  display: flex;
+  align-items: center;
+}
+
+.fill-mode p {
+  margin-right: 10px;
+}
+
+.fill-mode select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.range-slider-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.range-value {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.range-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.range-input {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.run-btn {
+  width: 80px;
+  margin-top: 200px;
+  margin-left: -100px;
+
+  
+}
+/* keyframe-add */
+
+.partitions-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0 2px;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.partition {
+  flex: 0 0 auto;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-color: #1560f5;
+}
+
+.partition:last-child {
+  border-right: none;
+}
+
+
+.textarea-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.textarea-container label {
+  position: relative;
+}
+
+.textarea-container label {
+  position: absolute;
+  margin-top: -10px;
+  color:rgba(0, 0, 255, 0.575);
+  font-size: 20px;
+}
+
+.textarea-container .pi-times {
+  margin-top: -10px;
+  color: rgb(247, 3, 3);
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.app {
+  border-radius: 120px;
+}
+
+.elements {
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 3px;
+}
+
+.params {
+  background-color: rgba(0, 0, 255, 0.575);
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+  color: white;
+  font-weight: 500;
+}
+
+.fbtn {
+  margin-left: 10px;
+}
+
+textarea {
+  border: none;
+  background: rgba(0, 0, 255, 0.123);
+  color: rgba(0, 0, 255, 0.753);
+  font-weight: 500;
+  padding: 5px;
+  font-size: 13px;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+textarea:focus {
+  outline: 1px solid rgba(0, 0, 255, 0.575);
+}
+.txth1{
+color:rgba(0, 0, 255, 0.575);
+}
+
+/* add css button */
+.css-btn {
+  color: rgba(9, 9, 9, 0.575);
+  background-color: #9b9ba1;
+  border-radius: 10px;
+  height: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgba(105, 105, 246, 0.808);
+}
